@@ -5,6 +5,7 @@ deployment:
   production:
     branch: master
     commands:
+      - "[[ ! -s \"$(git rev-parse --git-dir)/shallow\" ]] || git fetch --unshallow"
       - git checkout gh-pages
       - git merge master
       - git push origin gh-pages
