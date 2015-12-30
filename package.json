@@ -1,0 +1,21 @@
+{
+  "name": "circle-ci-test",
+  "version": "0.1.0",
+  "description": "Testing Simple App with Circle CI",
+  "scripts": {
+    "test": "mocha --reporter nyan"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Robert-W/circle-ci-test.git"
+  },
+  "author": "Robert-W",
+  "bugs": {
+    "url": "https://github.com/Robert-W/circle-ci-test/issues"
+  },
+  "homepage": "https://github.com/Robert-W/circle-ci-test#readme",
+  "dependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  }
+}
