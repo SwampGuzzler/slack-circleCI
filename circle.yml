@@ -5,4 +5,5 @@ deployment:
   production:
     branch: master
     commands:
+      - git checkout gh-pages
       - ./scripts/production.sh
