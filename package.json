@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "description": "Testing Simple App with Circle CI",
   "scripts": {
-    "test": "mocha --reporter nyan"
+    "test": "mocha --reporter nyan",
+    "production": "echo 'success'"
   },
   "repository": {
     "type": "git",
