@@ -5,5 +5,5 @@ deployment:
   production:
     branch: master
     commands:
-      - git push git@github.com:Robert-W/circle-ci-test.git $CIRCLE_SHA1:gh-pages
+      - git push https://$GITHUB_TOKEN:x-oauth-basic@@github.com:Robert-W/circle-ci-test.git gh-pages
       - ./scripts/production.sh
