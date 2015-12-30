@@ -5,5 +5,8 @@ deployment:
   production:
     branch: master
     commands:
+      - git checkout gh-pages
+      - git merge master
+      - git commit -a -m 'Updating GH-Pages'
       - git push https://$GITHUB_TOKEN:x-oauth-basic@github.com/Robert-W/circle-ci-test.git gh-pages
       - ./scripts/production.sh
