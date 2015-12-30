@@ -1,6 +1,6 @@
 {
   "name": "circle-ci-test",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Testing Simple App with Circle CI",
   "scripts": {
     "test": "mocha --reporter nyan",
