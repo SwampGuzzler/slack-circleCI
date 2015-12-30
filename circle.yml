@@ -5,8 +5,5 @@ deployment:
   production:
     branch: master
     commands:
-      - "[[ ! -s \"$(git rev-parse --git-dir)/shallow\" ]] || git fetch --unshallow"
-      - git checkout gh-pages
-      - git merge master
-      - git push origin gh-pages
+      - git push git@github.com:Robert-W/circle-ci-test.git $CIRCLE_SHA1:gh-pages
       - ./scripts/production.sh
