@@ -10,7 +10,7 @@ describe('Calculator', function () {
     });
 
     it('should add three numbers', function () {
-      expect(calculator.add(1, 2, 3)).to.equal(6);
+      expect(calculator.add(1, 2, 3)).to.equal(7);
     });
 
     it('should add four numbers', function () {
