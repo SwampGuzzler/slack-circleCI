@@ -11,5 +11,5 @@ deployment:
     commands:
       - git checkout gh-pages
       - git merge master
-      - git push https://$GITHUB_TOKEN:x-oauth-basic@github.com/Robert-W/circle-ci-test.git gh-pages
+      - git push https://$GITHUB_TOKEN:x-oauth-basic@github.com/SwampGuzzler/slack-circleCI.git gh-pages
       - ./scripts/production.sh
