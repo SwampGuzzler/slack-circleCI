@@ -5,4 +5,6 @@ This repo is now integrated with Slack, and will give us pass/fail notifications
 
 This gh-pages branch has much more info! Just kidding, they will always have the same info - IF, our Circle CI passes!
 
+This integration with Heroku is proving very tricky
+
  [![Circle CI](https://img.shields.io/circleci/project/Robert-W/circle-ci-test/master.svg?style=flat&label=circle)](https://img.shields.io/circleci/project/Robert-W/circle-ci-test/master.svg?style=flat&label=circle)
