@@ -17,6 +17,7 @@
   "homepage": "https://github.com/Robert-W/circle-ci-test#readme",
   "dependencies": {
     "chai": "^3.4.1",
-    "mocha": "^2.3.4"
+    "mocha": "^2.3.4",
+    "express": "^4.0"
   }
 }
