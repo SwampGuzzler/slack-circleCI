@@ -1,20 +1,20 @@
 {
   "name": "circle-ci-test",
-  "version": "0.1.4",
-  "description": "Testing Simple App with Circle CI",
+  "version": "0.1.5",
+  "description": "Testing Simple App with Circle CI & Heroku",
   "scripts": {
     "test": "mocha --reporter nyan",
     "production": "echo 'success'"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Robert-W/circle-ci-test.git"
+    "url": "https://github.com/SwampGuzzler/slack-circleCI.git"
   },
-  "author": "Robert-W",
+  "author": "Lucas Cotner",
   "bugs": {
-    "url": "https://github.com/Robert-W/circle-ci-test/issues"
+    "url": "https://github.com/SwampGuzzler/slack-circleCI/issues"
   },
-  "homepage": "https://github.com/Robert-W/circle-ci-test#readme",
+  "homepage": "https://github.com/SwampGuzzler/slack-circleCI#readme",
   "dependencies": {
     "chai": "^3.4.1",
     "mocha": "^2.3.4",

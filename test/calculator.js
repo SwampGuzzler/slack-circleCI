@@ -14,7 +14,7 @@ describe('Calculator', function () {
     });
 
     it('should add four numbers', function () {
-      expect(calculator.add(1, 2, 3, 4)).to.equal(10);
+      expect(calculator.add(1, 2, 3, 4)).to.equal(11);
     });
 
     it('should add five numbers', function () {
