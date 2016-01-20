@@ -17,8 +17,20 @@ describe('Calculator', function () {
       expect(calculator.add(1, 2, 3, 4)).to.equal(11);
     });
 
-    it('should add five numbers', function () {
-      expect(calculator.add(1, 2, 3, 4, 5)).to.equal(15);
+  });
+
+  describe('.subtract', function () {
+
+    it('should subtract two numbers', function () {
+      expect(calculator.subtract(2, 0)).to.equal(2);
+    });
+
+    it('should subtract three numbers', function () {
+      expect(calculator.subtract(2, 1)).to.equal(1);
+    });
+
+    it('should subtract four numbers', function () {
+      expect(calculator.subtract(2, 2)).to.equal(0);
     });
 
   });
