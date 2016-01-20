@@ -18,7 +18,7 @@ describe('Calculator', function () {
     });
 
     it('should add five numbers', function () {
-      expect(calculator.add(1, 2, 3, 4, 5)).to.equal(12);
+      expect(calculator.add(1, 2, 3, 4, 5)).to.equal(15);
     });
 
   });
