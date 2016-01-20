@@ -10,8 +10,6 @@ deployment:
     branch: master
     heroku:
       appname: circle-ci-test
-  staging:
-    branch: master
     commands:
       - git checkout gh-pages
       - git merge master
